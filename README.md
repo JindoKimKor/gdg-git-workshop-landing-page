@@ -6,13 +6,15 @@ Let's imagine you just joined a team, and your first task is to build a landing 
 
 Your team has broken the work into **3 tickets** (see the [Issues](../../issues) tab):
 
-| Issue | Feature | Branch |
-|-------|---------|--------|
-| #1 | Add navbar | `feat/navbar` |
-| #2 | Add hero section | `feat/hero-section` |
-| #3 | Add footer | `feat/footer` |
+| Ticket | Feature | Branch |
+|--------|---------|--------|
+| FEAT-1 | Add navbar | `feat/navbar` |
+| FEAT-2 | Add hero section | `feat/hero-section` |
+| FEAT-3 | Add footer | `feat/footer` |
 
 Each ticket = one branch = one unit of work.
+
+> **Note:** Some companies use ticket prefixes (like `FEAT-`, `BUG-`) to name their branches — so you can trace which branch belongs to which ticket. See [BRANCH-NAMING-CONVENTION.md](BRANCH-NAMING-CONVENTION.md) for the convention used in this project.
 
 ## Your Workflow
 
