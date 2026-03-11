@@ -9,4 +9,35 @@ body {
     font-family: system-ui, -apple-system, sans-serif;
     line-height: 1.6;
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Placeholder styling for unimplemented sections */
+.placeholder {
+    padding: 2rem;
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+/* Section layout */
+.navbar {
+    min-height: 60px;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.footer {
+    min-height: 100px;
 }

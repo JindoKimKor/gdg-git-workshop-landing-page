@@ -1,24 +1,32 @@
 # GDG Conestoga — Git Workshop: Landing Page Project
 
-This is a hands-on workshop project for **GDG Conestoga's Git & CI/CD Workshop Series (Workshop 1)**.
+## The Scenario
 
-## What is this?
+Let's imagine you just joined a team, and your first task is to build a landing page. The project has already been initialized — the skeleton is ready, but the features haven't been built yet.
 
-A simple landing page project designed for practicing the core Git workflow:
+Your team has broken the work into **3 tickets** (see the [Issues](../../issues) tab):
 
-```
-branch → change → stage → commit → merge
-```
+| Issue | Feature | Branch |
+|-------|---------|--------|
+| #1 | Add navbar | `feat/navbar` |
+| #2 | Add hero section | `feat/hero-section` |
+| #3 | Add footer | `feat/footer` |
 
-## How to use this repo
+Each ticket = one branch = one unit of work.
 
-1. Check the **Issues** tab — each issue is a small unit of work (a ticket)
-2. For each ticket, create a branch using the naming convention in [BRANCH-NAMING-CONVENTION.md](BRANCH-NAMING-CONVENTION.md)
-3. Use AI (Copilot, Claude, ChatGPT, etc.) to write the code
-4. Stage, commit, and merge your work
+## Your Workflow
+
+For each ticket, follow the Git cycle:
+
+1. **Create a branch** for the ticket
+2. **Write code** using AI (Copilot, Claude, ChatGPT, etc.)
+3. **Stage and commit** your changes
+4. **Merge** back to main
+
+Refer to [BRANCH-NAMING-CONVENTION.md](BRANCH-NAMING-CONVENTION.md) for branch naming rules.
 
 ## Workshop Context
 
 - **Workshop:** Mastering Git Concepts in the Age of AI
 - **Series:** GDG Conestoga Git & CI/CD Workshop
-- **Focus:** Understanding Git concepts and using AI for commands — not memorizing syntax
+- **Focus:** Understand the rules of Git, use AI for the commands
